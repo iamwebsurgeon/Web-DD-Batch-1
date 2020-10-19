@@ -1,0 +1,41 @@
+
+.container{
+    width: 1000px;
+    background-color: aliceblue;
+    height: 500px;
+    margin: auto;
+}
+.container h3{
+    padding-top: 30px;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 5px solid black;
+    border-radius: 5px;
+    border-collapse: collapse;
+    overflow: hidden;
+    
+}
+table th, table td{
+/*    border: 1px solid black;*/
+    padding: 10px;
+    color: blue;
+}
+table td{
+    text-align: center;
+}
+table th{
+    background-color: aqua;
+}
+table tr:nth-child(odd){
+    background-color:darkgrey
+}
+table tr:nth-child(odd):hover{
+    background-color: red;
+}
+table tr:hover{
+    background-color: red;
+    
+}

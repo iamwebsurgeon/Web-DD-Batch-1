@@ -1,0 +1,49 @@
+
+.container{
+    width: 1000px;
+    background-color: aliceblue;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.container h3{
+    padding-top: 30px;
+    text-align: center;
+    font-size:150%;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus{
+    background-color: yellow;
+}
+select{
+    width: 100%;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"],
+input[type="reset"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    background-color: aqua;
+    font-size: 110%;
+    
+    
+}
