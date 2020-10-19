@@ -1,0 +1,48 @@
+#box{
+	height: 400px;
+	width: 400px;
+	/*background-color: red;*/
+	background-image: radial-gradient(closest-side at 40% 60%, purple, yellow, black);
+	margin-bottom: 30px;
+}
+#box-2{
+
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 10px;
+	height: 57px;
+	width: 57px;
+	background-image: url(icons-3.png);
+}
+#facebook{
+	background-position: -57px 0px;
+}
+#instagram{
+	background-position: -114px 0px;
+}
+#pinterest{
+	background-position: -171px 0px;
+}
+#google{
+	background-position: -228px 0px;
+}
+#twitter:hover{
+	background-position: 0px 57px;
+}
+
+#facebook:hover{
+	background-position: -57px 57px;
+}
+#instagram:hover{
+	background-position: -114px 57px;
+}
+#pinterest:hover{
+	background-position: -171px 57px;
+}
+#google:hover{
+	background-position: -228px 57px;
+}
+
+

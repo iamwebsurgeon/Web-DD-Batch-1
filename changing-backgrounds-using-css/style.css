@@ -1,0 +1,23 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+#container{
+    background-color: aliceblue;
+    width: 1000px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: url('img/pattern-1.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+
+
+    background-image: url('img/pattern-1.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    
+}

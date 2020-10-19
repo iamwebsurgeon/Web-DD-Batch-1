@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Creating Slideshow</title>
+    <style>
+        .toggle-btn {display: none;}
+        .toggle-btn-visible {display: block;}
+        .toggle-target-hidden {display: none;}
+        .toggle-target-expanded {display: block;}
+    </style>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="jquery.declarativeToggle.min.js"></script>
+    <script src="modernizr-custom.js"></script>
+	
+</head>
+<body>
+
+<span class="toggle-btn" data-toggle-target="#box3" data-toggle-text="Hide Text">Show Text</span>
+<div id="box3">
+    <p>This content is hidden by default because it is the target of a toggle button. Clicking on the above span will reveal this content.</p>
+</div>
+	
+	
+</body>
+</html>

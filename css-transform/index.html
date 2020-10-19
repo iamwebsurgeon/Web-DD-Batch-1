@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Box Model</title>
+
+	<style>
+
+		#box-1{
+			width: 300px;
+			height: 300px;
+			background-color: grey;
+			padding: 20px;
+			margin:50px 20px 10px 50px;
+			box-sizing: border-box;
+			/*border-width: 5px;
+			border-style: solid;
+			border-color: red;
+*/
+			border:5px dotted red;
+
+			/*transform: translate(150px, 150px);
+			transform: translateX(150px);
+			transform: translateY(350px);*/
+			/*transform: skew(-20deg, 20deg);
+			transform: skewX(30deg);
+			transform: skewY(-30deg);*/
+
+			transition-property: 
+
+			
+		}
+
+		@keyframes bgcol {
+  25% {
+  	/*background-color: yellow;*/
+  	transform: translateX(100%) scale(.75);
+  	/*background-color: red;*/
+  }
+  50% {
+  	/*background-color: yellow;*/
+  	transform: translateX(200%) scale(.5) rotate(360deg);
+  	/*background-color: purple;*/
+
+
+  }
+  75% {
+  	/*background-color: yellow;*/
+  	transform: translateX(300%)scale(.75);
+  	/*background-color: green;*/
+  }
+  100% {
+  	/*background-color: yellow;*/
+  	transform: translateX(400%)scale(1);
+  	/*background-color: pink;*/
+  }
+} 	
+
+
+
+		#box-2{
+			width: 300px;
+			height: 300px;
+			background-color: yellow;
+			margin:50px 20px 10px 5px;
+
+			animation-name: bgcol;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function: linear;
+/*			transition-property: all;
+			transition-duration: 3s;
+			transition-delay: 2s;
+			transition-timing-function: ease-out;*/
+			/*transition: all 2s;*/
+
+			/* The animation code */
+
+/* The element to apply the animation to */
+
+
+
+		}
+
+
+
+		#box-2:hover{
+			background-color: red;
+			color: white;
+			padding: 20px;
+			/*transform: scale(1.5) rotate(250deg);*/
+			/*transform: matrix(1.5, -0.3, 0, 1, 0, 0);*/
+
+			
+		}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  
+}
+
+	</style>
+
+</head>
+<body>
+	<div id="box-1">
+		I am a Box 1
+	</div>
+	<div id="box-2">
+		I am a Box 2
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Form Element</title>
+</head>
+<body>
+   <form action="" method="post" enctype="multipart/form-data">
+       <label for="full_name">Full Name</label>
+        <input type="text" name="full-name" id="full_name" placeholder="Type your name..." required> <br><br>
+        
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required="required">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+        
+        <label for="education_level">Select Your Education</label>
+        <select name="education-level" id="education_level">
+            <option value="" selected readonly hidden>Select Level</option>
+            <option value="matric">Matric</option>
+            <option value="inter">Inter</option>
+            <option value="b.sc">B.Sc</option>
+            <option value="m.sc">M.Sc</option>
+        </select>
+        <br><br>
+        
+        
+        <label for="marks">Enter Marks</label>
+        <input type="number" name="marks" id="marks" min="0" max="50" step="5">
+        <br><br>
+        
+        <input type="range"> <br>
+        
+        
+        <input type="color"> <br><br>
+        
+        <input type="date" min="2000-10-10" max="2025-10-10">
+            <br><br>
+        
+        <input type="week">
+        
+        <br><br>
+        
+        <input type="datetime-local">
+        <br><br>
+        
+        
+        <fieldset>
+        <legend>Options</legend>
+        
+        <input type="radio" value="male" name="gender" checked> Male
+        <input type="radio" value="female" name="gender"> Female
+        <br><br>
+        <input type="checkbox" name="interest" value="horse riding"> Horse Riding
+        <input type="checkbox" name="interest" value="internet surfing"> Internet Surfing
+        <input type="checkbox" name="interest" value="books reading"> Books Reading
+        
+        <br>
+        <br>
+        </fieldset>
+        
+        <input type="tel">
+        <br><br>
+        <input type="url">
+        <br>
+        <br>
+        <input type="search">
+        
+        
+        
+        <br><br>
+        <textarea name="" id="" cols="50" rows="5"></textarea>
+        
+         <button>Click Me</button>
+        
+        
+        
+        <input type="file">
+        
+      
+         
+         
+         <br><br>
+          <input type="submit" name="save_btn" value="Save Data">
+          <input type="reset">
+       
+   </form>
+    
+</body>
+</html>

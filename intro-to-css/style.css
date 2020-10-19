@@ -1,0 +1,51 @@
+body{
+	color: blue;
+    background-color: deepskyblue;
+}
+
+#main{
+    background-color: white;
+    width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+    padding: 40px 40px;
+    box-sizing: border-box;
+}
+
+header{
+	border-bottom: 3px solid black;
+}
+#content-area{
+	border-bottom: 3px solid black;
+}
+section{
+	width: 70%;
+	float:left;
+    padding-right: 30px;
+    box-sizing: border-box;
+/*	background-color: red;*/
+}
+section p{
+    text-align: justify;
+}
+aside{
+	width: 30%;
+	float:right;
+/*	background-color: green;*/
+}
+aside p{
+    text-align: justify;
+}
+.clear-fix{
+	clear:both;
+}
+
+footer{
+	text-align: center;
+}
+footer p{
+	color:red;
+}
+h1, h2, h3, h4, h5, h6{
+    color: blueviolet;
+}
